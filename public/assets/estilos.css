@@ -1,0 +1,17 @@
+.gradient-custom-2 {
+
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #4e79f6, #6e97fb, #92b4ff, #307cff);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #4e79f6, #6e97fb, #92b4ff, #3f7eec);
+    }
+    
+    
+    @media (min-width: 770px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .4rem;
+    border-bottom-right-radius: .5rem;
+    }
+    }
